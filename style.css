@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+body{
+    background-color:rgb(193, 255, 202);
+    background-image: linear-gradient(to right, rgb(175, 248, 199), rgb(155, 216, 216));
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container2{
+   
+   background-image: linear-gradient(to right, rgb(200, 241, 248), rgb(193, 228, 228));
+   display: grid;
+   grid-template-columns: 1.3fr 3.2fr  2.7fr; 
+   font-family: 'Roboto', sans-serif;
+   padding-bottom: 25px;
+   border-radius: 30px;
+}
+/*_______________Left_____________*/
+.left{
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
+}
+.left ul{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    gap: 10px;
+    list-style-type: none;
+}
+.event_two{
+    display: flex;
+    
+}
+
+#li_icon{
+    font-size: 24px;
+    width: 70px;
+}
+.l_head{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 1px;
+}
+#blue{
+    color: rgb(14, 155, 220);
+}
+#github{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+/*_______________Middle_____________*/
+.middle{
+    display: grid;
+    grid-template-rows: 0.5fr 3fr 3fr;
+    gap: 15px;
+   
+}
+#search_bar{
+    font-size: 16px;
+    height: 40px;
+    width: 270px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(230, 255, 241);
+    
+}
+#vino{
+    position: absolute;
+    background-color: white;
+    border: 0;
+    margin-left: -40px;
+    padding: 0;
+    margin-top: 15px;
+    background-color: rgb(217, 252, 233);
+    
+}
+.search-container{
+    align-items: center;
+    padding-top: 30px;
+    height: 50px;
+    margin-bottom: 0px;
+    
+}
+.projects{
+   
+}
+.projects ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr;
+    list-style-type: none;
+}
+.card_list{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card_icons{
+    display: flex;
+    gap: 10px;
+}
+.vl{
+    border-left: 1px solid red;
+    height: 20px;
+}
+.events{
+  
+}
+.event_one h1{
+    font-size: 20px;
+}
+.projects h1 ul{
+    margin: 0;
+}
+.event_one{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+    align-items: end;
+}
+.date_box{
+    font-size: 15px;
+   display: flex;
+   align-items: center;
+   background-color: blanchedalmond;
+   height: 25px;
+   padding: 5px 25px;
+   border-radius: 20px;
+   background-color: rgb(217, 252, 233);
+   border: solid 1px gray;
+}
+.event_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.date_day{
+   
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    
+}
+.event_two :hover{
+     background-color: rgb(255, 0, 0);
+     color: white;
+     cursor: pointer;
+}
+.date_day h5{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0;
+}
+.date_day h6{
+    font-weight: lighter;
+    margin: 0;
+}
+.event_three{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 10px;
+}
+.past_events{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    background-color: rgb(230, 255, 241);
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.past_events_1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+.past_events_1 h4{
+    margin: 0;
+}
+.past_events_1 p{
+    margin: 0;
+    font-size: 13px;
+    color: rgb(14, 11, 11, 0.8);
+   
+}
+
+
+/*_______________Right_____________*/
+.profile{
+    display: grid;
+    grid-template-columns: 4fr 1fr 0.5fr 1fr;
+    align-items: center;
+    padding-top: 15px;
+}
+
+#an_h,#st_h{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ann_container{
+    background-color: rgba(216, 248, 230, 0.8);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    width: 350px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 20px;
+    box-shadow: 5px 15px 40px -10px #4b5a6e;
+    
+}
+.ann_container p{
+    font-weight: bold;
+    font-size: 10px;
+}
+.ann_container h6{
+    font-weight: lighter;
+    margin-top: 0;
+    
+}
+
+#proj{
+    margin: 0;
+    font-size: large;
+}
+#rec{
+    font-size: smaller;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 10px;
+    
+    font-weight: lighter;
+    display: flex;
+    gap: 20px;
+}
+.card h5{
+    margin: 10px;
+    margin-top: 30px;
+
+}
+.ann_container h6{
+    font-size: 13px;
+    margin: 0;
+}
+.statistics img{
+   padding-left: 0px;
+   width: 530px;
+   border-radius: 20px;
+
+}
+
+.material{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.last{
+    
+    display: grid;
+    grid-template-columns: 5fr 0.5fr 1fr;
+}
+#hr{
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #4b5a6e;
+}
+#per{
+    font-family: 'Protest Strike', sans-serif;
+    margin: 0;
+    font-size: 50px;
+    color: #003858;
+}
+
+#card_image{
+    object-fit: contain;
+}
